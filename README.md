@@ -26,16 +26,8 @@ Each file is a table with the following columns:
 | `bg_flux_mean` | Mean background flux |
 | `bg_flux_std` | Background flux standard deviation |
 
-## Citation
+## Contact
 
-If using these data, please cite the associated paper and this repository.
-
-```bibtex
-@misc{chand2026polarisdimmdata,
-  author       = {Chand, Jaya and Wilson, Richard W. and Osborn, James and O'Mahony, Neil},
-  title        = {Polaris DIMM Data},
-  year         = {2026},
-  publisher    = {GitHub},
-  howpublished = {\url{https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME}},
-  note         = {Data associated with: A Polaris Differential Image Motion Seeing Monitor with Fixed Pointing}
-}
+Jaya Chand  
+Durham University  
+jaya.chand@durham.ac.uk
