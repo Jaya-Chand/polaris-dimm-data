@@ -1,8 +1,8 @@
 # Polaris DIMM Data
 
-This repository contains reduced data from the **Polaris Differential Image Motion Monitor (DIMM)**.
+Reduced data from the **Polaris Differential Image Motion Monitor (DIMM)**.
 
-The data accompany:
+Associated paper:
 
 **Chand, J., Wilson, R. W., Osborn, J., and O'Mahony, N.**  
 *A Polaris Differential Image Motion Seeing Monitor with Fixed Pointing.*  
@@ -10,23 +10,25 @@ The data accompany:
 
 ## Data
 
-The repository contains 14 plain-text data files.
+This repository contains 14 text files.
 
-Each file corresponds to one observing night or observing period. The data are stored in a tabular text format, with one row per measurement.
+Each file is a table with the following columns:
 
-The columns describe the reduced Polaris DIMM outputs, including:
-
-- observation timestamp
-- longitudinal Fried parameter estimate, `r0_L`
-- transverse Fried parameter estimate, `r0_T`
-- average image counts or background-subtracted counts
-- observing or quality-control information, where available
-
-Column names and units are given in the file headers where available.
+| Column | Description |
+|---|---|
+| `timestamp_UT` | Time in UT |
+| `r0_L` | Longitudinal \(r_0\) |
+| `r0_T` | Transverse \(r_0\) |
+| `scint_L` | Left-image scintillation |
+| `scint_R` | Right-image scintillation |
+| `mean_counts_L` | Mean counts, left image |
+| `mean_counts_R` | Mean counts, right image |
+| `bg_flux_mean` | Mean background flux |
+| `bg_flux_std` | Background flux standard deviation |
 
 ## Citation
 
-If you use these data, please cite the associated paper and this repository.
+If using these data, please cite the associated paper and this repository.
 
 ```bibtex
 @misc{chand2026polarisdimmdata,
